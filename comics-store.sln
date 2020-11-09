@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5969EC66-540E-4429-A097-453B239B854A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicStore.Catalog", "src\ComicStore.Catalog\ComicStore.Catalog.csproj", "{5EB2DAAF-E430-4F3E-AE28-6904436145C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicStore.Sales", "src\ComicStore.Sales\ComicStore.Sales.csproj", "{98EBBA44-452C-4DBB-91D3-8A8E291DF628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicStore.WebApp.MVC", "src\ComicStore.WebApp.MVC\ComicStore.WebApp.MVC.csproj", "{4A08A80E-0D23-448E-BFC2-8B070A22F460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +22,48 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|x64.Build.0 = Release|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8}.Release|x86.Build.0 = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|x64.Build.0 = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Debug|x86.Build.0 = Debug|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|x64.ActiveCfg = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|x64.Build.0 = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|x86.ActiveCfg = Release|Any CPU
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628}.Release|x86.Build.0 = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|x64.Build.0 = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EB2DAAF-E430-4F3E-AE28-6904436145C8} = {5969EC66-540E-4429-A097-453B239B854A}
+		{98EBBA44-452C-4DBB-91D3-8A8E291DF628} = {5969EC66-540E-4429-A097-453B239B854A}
+		{4A08A80E-0D23-448E-BFC2-8B070A22F460} = {5969EC66-540E-4429-A097-453B239B854A}
 	EndGlobalSection
 EndGlobal
